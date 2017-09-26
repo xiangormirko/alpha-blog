@@ -29,6 +29,15 @@ $navbar-default-bg: black;
   height: 400px;
 }
 
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -48,4 +57,9 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+#cancel-btn {
+  color: #fff;
+  text-decoration: none;
 }
