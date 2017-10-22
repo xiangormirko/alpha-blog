@@ -1,13 +1,12 @@
 class WelcomeController < ApplicationController
   
   def home 
-    5.times { |i| puts i }
+    redirect_to articles_path if logged_in?
+    
   end
   
   def about
-    5.times do |i|
-      puts "ciao"
-    end
+
   end
   
 end
