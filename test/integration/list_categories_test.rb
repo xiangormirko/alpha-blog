@@ -15,4 +15,5 @@ class ListCategoriesTest < ActionDispatch::IntegrationTest
     
   end
   
+  
 end
